@@ -5,8 +5,8 @@
       <article class="b-article">
         <header class="b-article-header">
           <time class="b-article-date"><?php the_time( 'F j, Y' ); ?></time>
-          <h1>
-            <a class="b-article-title" href="<?php echo post_permalink( $ID ); ?>"><?php the_title(); ?></a>
+          <h1 class="b-article-title">
+            <a href="<?php echo post_permalink( $ID ); ?>"><?php the_title(); ?></a>
           </h1> 
         </header>
         <?php the_content(); ?>

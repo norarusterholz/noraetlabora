@@ -16,8 +16,21 @@
 
 .b-social-menu {
   font-family: "icomoon";
+  font-size: 1.6rem;
   padding-left: 0;
     .menu-item {
       display: inline-block;
+      /* Hide Link Lables */
+      a {
+        overflow: hidden;
+        width: 30px;
+        white-space: nowrap;
+        text-indent: 2px;
+        display: inline-block;
+        line-height: 28px;
+        &:before {
+          padding-right: 5px;
+        }
+      }
     }
-}
+  }

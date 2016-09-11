@@ -17,7 +17,8 @@
   <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container' => 'nav', 'container_class' => 'b-navigation', 'menu_class' => 'b-header-menu' ) ); ?>
   
   <header class="b-header">
-    <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" class="b-header-image"/>
+    <a href="<?php echo home_url('/')?>">
+    <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" class="b-header-image"/></a>
     <h1>
       <a class="b-header-title" href="<?php echo home_url('/')?>"><?php bloginfo('name')?></a>
     </h1>

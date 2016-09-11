@@ -1,13 +1,14 @@
 .b-container {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 0.2fr 1fr auto 0.1fr;
+  grid-template-rows: 0.2fr 2fr 0.2fr auto 0.1fr;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   grid-template-areas:  "nav nav nav nav nav nav"
                         " . . header header . ."
-                       ". main main main main ."
-                       "footer footer footer footer footer footer"
+                        ". search search search search ."
+                        ". main main main main ."
+                        "footer footer footer footer footer footer"
 }
 
 .b-navigation {
@@ -16,6 +17,10 @@
 
 .b-header {
   grid-area: header;
+}
+
+.b-search {
+  grid-area: search;
 }
 
 .b-main-content {
