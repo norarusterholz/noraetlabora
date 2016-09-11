@@ -1,0 +1,24 @@
+.b-article-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.b-article {
+  width: 220px;
+  height: 220px;
+  border: 1px solid gray;
+
+  p {
+    font-size: 1rem;
+    font-weight: $font-weight__base;
+    line-height: 0.8rem;
+  }
+}
+
+.b-article-title {
+  font-size: 1rem;
+  font-weight: $font-weight__base;
+  line-height: 1rem;
+}

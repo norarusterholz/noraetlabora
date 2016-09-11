@@ -1,0 +1,121 @@
+@import "variables";
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$icomoon-font-path}/icomoon.eot?5lkvd0');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?5lkvd0#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?5lkvd0') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?5lkvd0') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?5lkvd0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-browser {
+  &:before {
+    content: $icon-browser;
+  }
+}
+.icon-camera {
+  &:before {
+    content: $icon-camera;
+  }
+}
+.icon-lightbulb {
+  &:before {
+    content: $icon-lightbulb;
+  }
+}
+.icon-pencil {
+  &:before {
+    content: $icon-pencil;
+  }
+}
+.icon-paintbrush {
+  &:before {
+    content: $icon-paintbrush;
+  }
+}
+.icon-magnifying-glass {
+  &:before {
+    content: $icon-magnifying-glass;
+  }
+}
+.icon-beaker {
+  &:before {
+    content: $icon-beaker;
+  }
+}
+.icon-bike {
+  &:before {
+    content: $icon-bike;
+  }
+}
+.icon-wine {
+  &:before {
+    content: $icon-wine;
+  }
+}
+.icon-hotairballoon {
+  &:before {
+    content: $icon-hotairballoon;
+  }
+}
+.icon-genius {
+  &:before {
+    content: $icon-genius;
+  }
+}
+.icon-map-pin {
+  &:before {
+    content: $icon-map-pin;
+  }
+}
+.icon-facebook,
+#menu-social-menu li a[href*="facebook.com"] {
+  &:before {
+    content: $icon-facebook;
+  }
+}
+.icon-twitter,
+#menu-social-menu li a[href*="twitter.com"] {
+  &:before {
+    content: $icon-twitter;
+  }
+}
+.icon-googleplus {
+  &:before {
+    content: $icon-googleplus;
+  }
+}
+.icon-rss {
+  &:before {
+    content: $icon-rss;
+  }
+}
+.icon-tumblr {
+  &:before {
+    content: $icon-tumblr;
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin;
+  }
+}
+

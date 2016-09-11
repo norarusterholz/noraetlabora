@@ -1,0 +1,38 @@
+/*!
+Theme Name: noraetlabora
+Theme URI: http://wordpress.org/themes/noraetlabora
+Author: Nora Rusterholz
+Author URI: http://norarusterholz.ch
+Description: Project to master css, html and wordpress and to grow as a frontend developer
+Version: 1.0
+Tags: html5, css3, responsive, typography, best practice, accessability
+Text Domain: noraetlabora
+*/
+
+//------------------------------------------------------------------
+
+// 1. TOOLS
+
+@import "partials/1-tools/_mixins.scss";
+@import "partials/1-tools/_normalize.scss";
+@import "partials/1-tools/_variables.scss";
+@import "partials/1-tools/_icomoon.scss";
+
+//------------------------------------------------------------------
+
+// 2. BASE
+
+@import "partials/2-base/_base.scss";
+@import "partials/2-base/_grid.scss";
+
+//------------------------------------------------------------------
+
+// 3. COMPONENTS
+
+@import "partials/3-components/_b-header.scss";
+@import "partials/3-components/_b-navigation.scss";
+@import "partials/3-components/_b-article.scss";
+@import "partials/3-components/_b-footer.scss";
+
+//------------------------------------------------------------------
+
