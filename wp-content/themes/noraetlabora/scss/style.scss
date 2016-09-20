@@ -13,26 +13,28 @@ Text Domain: noraetlabora
 
 // 1. TOOLS
 
-@import "partials/1-tools/_mixins.scss";
-@import "partials/1-tools/_normalize.scss";
-@import "partials/1-tools/_variables.scss";
-@import "partials/1-tools/_icomoon.scss";
+@import "partials/1-tools/mixins";
+@import "partials/1-tools/normalize";
+@import "partials/1-tools/variables";
+@import "partials/1-tools/icomoon";
 
 //------------------------------------------------------------------
 
 // 2. BASE
 
-@import "partials/2-base/_base.scss";
-@import "partials/2-base/_grid.scss";
+@import "partials/2-base/base";
+@import "partials/2-base/grid";
 
 //------------------------------------------------------------------
 
 // 3. COMPONENTS
 
-@import "partials/3-components/_b-header.scss";
-@import "partials/3-components/_b-navigation.scss";
-@import "partials/3-components/_b-article.scss";
-@import "partials/3-components/_b-footer.scss";
+@import "partials/3-components/b-header";
+@import "partials/3-components/b-navigation";
+@import "partials/3-components/b-article";
+@import "partials/3-components/b-footer";
+@import "partials/3-components/b-article";
+@import "partials/3-components/b-search-form";
 
 //------------------------------------------------------------------
 
