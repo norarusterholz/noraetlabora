@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto';
+  font-family: $font-family__body;
   font-size: $font-size__base;
   line-height: $line-height__base;
   font-weight: $font-weight__base;
@@ -9,6 +9,10 @@ body {
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family__heading;
 }
 
 img {
