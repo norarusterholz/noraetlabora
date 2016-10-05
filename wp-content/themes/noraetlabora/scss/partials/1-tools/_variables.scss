@@ -1,10 +1,10 @@
-$font-size__base: 18px;
-$line-height__base: 16px;
+$font-size__base: calc( 16px + (19 - 16) * ( (100vw - 300px) / ( 800 - 300) ));
+$line-height__base: 150%;
 $font-weight__base: 100;
 
 $icomoon-font-path: "fonts" !default;
-$font-family__body: "BaconFriend";
 $font-family__heading: "BaconFriend";
+$font-family__body: "BaconFriend";
 
 $icon-browser: "\e00c";
 $icon-camera: "\e012";

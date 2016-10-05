@@ -6,7 +6,7 @@
   grid-row-gap: 10px;
   grid-template-areas:  "nav nav nav nav nav nav"
                         " . . header header . ."
-                        ". . search search . ."
+                        ". search search search search ."
                         ". main main main main ."
                         "footer footer footer footer footer footer"
 }

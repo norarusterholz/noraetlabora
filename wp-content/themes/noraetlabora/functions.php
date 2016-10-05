@@ -60,4 +60,8 @@
   
   add_action( 'wp_enqueue_scripts', 'noraetlabora_scripts_styles' );
 
+  /* Enable Featured Images*/
+
+  add_theme_support( 'post-thumbnails' );
+
  ?>
